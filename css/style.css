@@ -189,14 +189,14 @@
 .offer {
   position: absolute;
   top: 300px;
-  left: -360px;
+  left: -460px;
   display: -ms-grid;
   display: grid;
   justify-items: end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1300px;
+  width: 1400px;
   height: 230px;
   background-color: rgba(1, 75, 130, 0.35);
 }
@@ -221,6 +221,12 @@
   background-color: #fbd341;
   padding: 12px 30px;
   border-radius: 8px;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+.offer__button a:hover {
+  background-color: #fac70f;
 }
 
 .lists {
@@ -362,6 +368,12 @@
   height: 35px;
   width: 35px;
   border-radius: 50%;
+  -webkit-transition: .3s ease background-color;
+  transition: .3s ease background-color;
+}
+
+.swiper-slide__button a:hover {
+  background-color: #cccc00;
 }
 
 .swiper-slide__button-image {
@@ -521,6 +533,12 @@
   border-radius: 8px;
   height: 100%;
   cursor: pointer;
+  -webkit-transition: .3s ease background-color;
+  transition: .3s ease background-color;
+}
+
+.offers__selections input[type="submit"]:hover {
+  background-color: #cccc00;
 }
 
 .offers__selections input::-webkit-input-placeholder {

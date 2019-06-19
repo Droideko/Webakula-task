@@ -117,11 +117,11 @@
 .offer
    position: absolute
    top: 300px
-   left: -360px
+   left: -460px
    display: grid
    justify-items: end
    align-items: center
-   width: 1300px
+   width: 1400px
    height: 230px
    background-color: rgba(1, 75, 130, .35)
    &__info
@@ -140,6 +140,10 @@
          background-color: #fbd341
          padding: 12px 30px
          border-radius: 8px
+         transition: 0.3s ease background-color 
+         &:hover
+            background-color: darken(#fbd341, 10%)
+
 .lists
    position: absolute
    display: block
@@ -164,6 +168,13 @@
 .services
    height: 215px
    width: 235px
+
+// @media screen and (max-width: 1100px) 
+
+//    .header
+      
+   
+
 
          
 
